@@ -7,27 +7,76 @@
   <title>United Church of Norwood</title>
   <link rel="stylesheet" href="/src/style.css" />
 </head>
-<body class="bg-white text-gray-800">
-  <header class="bg-gray-100 py-6 shadow-md">
-    <div class="max-w-6xl mx-auto px-4 flex justify-between items-center">
+<body class="bg-white text-gray-800 font-sans">
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
       <h1 class="text-2xl font-bold text-purple-900">United Church of Norwood</h1>
-      <nav class="space-x-4">
-        <a href="#" class="text-gray-700 hover:text-purple-800">Home</a>
-        <a href="#" class="text-gray-700 hover:text-purple-800">About</a>
-        <a href="#" class="text-gray-700 hover:text-purple-800">Events</a>
-        <a href="#" class="text-gray-700 hover:text-purple-800">Contact</a>
+      <nav class="space-x-6 text-gray-700 font-medium">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Sermons</a>
+        <a href="#">Events</a>
+        <a href="#">Contact</a>
       </nav>
     </div>
   </header>
 
-  <main class="text-center py-20 bg-gradient-to-b from-white to-purple-100">
-    <h2 class="text-4xl font-bold text-purple-800 mb-4">Welcome to Our Church</h2>
-    <p class="text-lg max-w-2xl mx-auto mb-8">A warm, inclusive community of faith, committed to service, love, and grace. Join us Sundays at 10am.</p>
-    <a href="#" class="bg-purple-700 text-white px-6 py-3 rounded-full hover:bg-purple-800">Join This Sunday</a>
+  <main class="bg-gradient-to-br from-white to-purple-100">
+    <section class="max-w-7xl mx-auto px-4 py-24 text-center">
+      <h2 class="text-5xl font-bold text-purple-900 mb-6">Welcome to United Church of Norwood</h2>
+      <p class="text-xl text-gray-700 max-w-2xl mx-auto mb-8">
+        A warm and inclusive Christian community in Norwood, MA. Join us as we walk in faith, love, and service.
+      </p>
+      <a href="#" class="inline-block bg-purple-700 text-white px-8 py-4 rounded-full text-lg hover:bg-purple-800 shadow-lg">
+        Worship With Us — Sundays at 10 AM
+      </a>
+    </section>
+
+    <section class="bg-white py-20">
+      <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
+        <div>
+          <img src="https://source.unsplash.com/400x300/?church" alt="Church Building" class="rounded-xl shadow-md mb-4 mx-auto" />
+          <h3 class="text-2xl font-semibold text-purple-800">Our Mission</h3>
+          <p class="text-gray-600 mt-2">To be a loving, welcoming, and growing community of faith.</p>
+        </div>
+        <div>
+          <img src="https://source.unsplash.com/400x300/?community" alt="Community Service" class="rounded-xl shadow-md mb-4 mx-auto" />
+          <h3 class="text-2xl font-semibold text-purple-800">Community</h3>
+          <p class="text-gray-600 mt-2">Join us in service projects, potlucks, and outreach initiatives.</p>
+        </div>
+        <div>
+          <img src="https://source.unsplash.com/400x300/?bible,faith" alt="Bible Study" class="rounded-xl shadow-md mb-4 mx-auto" />
+          <h3 class="text-2xl font-semibold text-purple-800">Faith in Action</h3>
+          <p class="text-gray-600 mt-2">Explore spiritual growth through worship, study, and fellowship.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-purple-50 py-16 text-center">
+      <h2 class="text-3xl font-bold text-purple-800 mb-6">Plan Your Visit</h2>
+      <p class="text-gray-700 max-w-2xl mx-auto mb-6">
+        We would love to welcome you in person. Let us know you're coming and we'll greet you with open arms.
+      </p>
+      <a href="#" class="bg-purple-600 text-white px-6 py-3 rounded-full hover:bg-purple-700">Plan a Visit</a>
+    </section>
   </main>
 
-  <footer class="bg-gray-100 text-center py-6 text-sm text-gray-600">
-    © 2025 United Church of Norwood. All rights reserved.
+  <footer class="bg-gray-800 text-white py-8">
+    <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-6 text-center md:text-left">
+      <div>
+        <h4 class="font-semibold text-lg mb-2">Location</h4>
+        <p>595 Washington Street<br/>Norwood, MA 02062</p>
+      </div>
+      <div>
+        <h4 class="font-semibold text-lg mb-2">Contact</h4>
+        <p>Phone: (555) 123-4567<br/>Email: info@norwoodchurch.org</p>
+      </div>
+      <div>
+        <h4 class="font-semibold text-lg mb-2">Follow Us</h4>
+        <p>Facebook | YouTube | Instagram</p>
+      </div>
+    </div>
+    <div class="text-center text-sm text-gray-400 mt-8">© 2025 United Church of Norwood. All rights reserved.</div>
   </footer>
 </body>
 </html>
